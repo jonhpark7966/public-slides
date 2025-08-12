@@ -13,15 +13,15 @@ mdc: true
 css: unocss
 ---
 
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="/style.css">
 
 ## <span class="hf">허깅페이스</span>의 `Action Data Scaling`
 
 > <span class="lerobot">LeRobot</span> Hackathon 의 의의
 
 <div style="position: fixed; bottom: 20px; right:20px; display: flex; gap: 10px; align-items: center;">
-  <img src="./airk_logo.png" style="height: 100px; border-radius: 20px;" />
-  <img src="./sudormrf.jpg" style="height: 100px; border-radius: 20px;" />
+  <img src="/airk_logo.png" style="height: 100px; border-radius: 20px;" />
+  <img src="/sudormrf.jpg" style="height: 100px; border-radius: 20px;" />
 </div>
 ---
 
@@ -51,14 +51,14 @@ css: unocss
 <div class="text-center">
 <h3 style="margin-bottom: 10px; font-size: 1.1em;">Physical Intelligence</h3>
 <video controls autoplay muted loop style="width: 100%; height: 280px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./physical_intelligence.mp4" type="video/mp4">
+  <source src="/physical_intelligence.mp4" type="video/mp4">
 </video>
 </div>
 
 <div class="text-center">
 <h3 style="margin-bottom: 10px; font-size: 1.1em; color: #888;">Figure AI</h3>
 <video controls autoplay muted loop style="width: 100%; height: 280px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./figure_demo.mp4" type="video/mp4">
+  <source src="/figure_demo.mp4" type="video/mp4">
 </video>
 </div>
 </div>
@@ -74,7 +74,7 @@ css: unocss
 
 
 <video controls autoplay muted loop style="width: 50%; height: 50%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <source src="./chess_demo.mp4" type="video/mp4">
+  <source src="/chess_demo.mp4" type="video/mp4">
 </video>
 
 체스판의 `사이즈/색/재질`이 바뀌어도 체스를 둘 수 있을까?
@@ -124,7 +124,7 @@ Text → Image → **Action?**
 
 
 <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
-<img src="./scaling.webp" style="max-width: 80%; height: auto;" />
+<img src="/scaling.webp" style="max-width: 80%; height: auto;" />
 </div>
 
 인터넷에 있는 모든 텍스트를 학습 했기 때문
@@ -137,7 +137,7 @@ Text → Image → **Action?**
 <div grid="~ cols-2 gap-12" style="padding: 40px; align-items: center;">
 
 <div style="text-align: center;">
-<img src="./action_data.png" style="width: 90%; max-width: 380px;"/>
+<img src="/action_data.png" style="width: 90%; max-width: 380px;"/>
 <p style="font-size: 0.7em; color: #666; margin-top: 8px;">
 <a href="https://huggingface.co/spaces/lerobot/visualize_dataset_v1.6?dataset=cadene%2Fkoch_bimanual_folding&episode=7" target="_blank" style="color: #fb9c04; text-decoration: none;"><span class="lerobot">LeRobot</span> Data Visualizer ↗</a>
 </p>
@@ -170,7 +170,7 @@ Action 데이터는 <br/>
 ## <span class="tesla-bold">`Tesla`</span>'s Teleoperation
 
 <video controls autoplay muted loop style="height: 280px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./tesla_teleop.mp4" type="video/mp4">
+  <source src="/tesla_teleop.mp4" type="video/mp4">
 </video>
 
 수 백명의 Teleoperation 팀 운영
@@ -183,7 +183,7 @@ Action 데이터는 <br/>
 
 <div style="text-align: center; margin: 20px 0;">
 <video controls autoplay muted loop style="max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <source src="./cosmos_omniverse.mp4" type="video/mp4">
+  <source src="/cosmos_omniverse.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -208,7 +208,7 @@ Action 데이터는 <br/>
 <div grid="~ cols-2 gap-8" style="padding: 20px; align-items: center;">
 
 <div style="text-align: center;">
-<img src="./so-arm101.png" style="width: 90%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+<img src="/so-arm101.png" style="width: 90%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
 </div>
 
 <div>
@@ -249,7 +249,7 @@ python lerobot/scripts/eval.py
 
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="./smolvla.png" style="max-width: 700px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+<img src="/smolvla.png" style="max-width: 700px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
 </div>
 
 - 누구나 fine-tuning 가능하도록 튜토리얼 코드 제공  
@@ -262,7 +262,7 @@ python lerobot/scripts/eval.py
 **2025년 6월 14-15일**
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="./world_hackathon.png" style="max-width: 600px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+<img src="/world_hackathon.png" style="max-width: 600px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
 </div>
 
 - 전세계 동시 개최, 44개국 오프라인 참여
@@ -288,16 +288,16 @@ python lerobot/scripts/eval.py
 
 <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
 <video controls autoplay muted loop style="width: 70%; height: 250px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./201-SeeNGripandBrothers-SquidGameSeeNGrip.mp4" type="video/mp4">
+  <source src="/201-SeeNGripandBrothers-SquidGameSeeNGrip.mp4" type="video/mp4">
 </video>
 <video controls autoplay muted loop style="width: 70%; height: 250px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./109-mos.mp4" type="video/mp4">
+  <source src="/109-mos.mp4" type="video/mp4">
 </video>
 </div>
 
 <div style="display: flex; justify-content: flex-start; align-items: center;">
 <video controls autoplay muted loop style="width: 100%; height: 500px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); object-fit: cover;">
-  <source src="./25-197-aibot.mp4" type="video/mp4">
+  <source src="/25-197-aibot.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -314,7 +314,7 @@ python lerobot/scripts/eval.py
 
 <div style="text-align: center; margin: 20px 0;">
 <video controls autoplay muted loop style="max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <source src="./seoul_live_demo.mp4" type="video/mp4">
+  <source src="/seoul_live_demo.mp4" type="video/mp4">
 </video>
 </div>
 
