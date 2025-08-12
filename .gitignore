@@ -9,7 +9,7 @@ build/
 .vite/
 
 # Large media files
-*.mp4
+# Note: mp4 files have been compressed to be under 50MB
 *.mov
 *.avi
 *.mkv
