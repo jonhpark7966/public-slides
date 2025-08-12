@@ -1,5 +1,6 @@
 ---
 theme: eloc
+colorSchema: dark
 title: 허깅페이스의 Action Data Scaling
 info: |
   <span class="lerobot">LeRobot</span> Worldwide Hackathon이 보여준 커뮤니티의 힘
