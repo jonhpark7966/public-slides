@@ -1,0 +1,26 @@
+{
+  "name": "lerobot-physical-ai-slides",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-eloc": "^1.1.0"
+  },
+  "version": "1.0.0",
+  "description": "- Sudoremove (LeRobot Worldwide Hackathon 서울 호스트)",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright-chromium": "^1.54.2"
+  }
+}
