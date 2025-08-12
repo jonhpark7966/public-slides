@@ -33,7 +33,7 @@ jobs:
         working-directory: ./250815_airk
       
       - name: Build Slidev
-        run: npm run build -- --base /public-slides/
+        run: npm run build -- --base /${{ github.event.repository.name }}/
         working-directory: ./250815_airk
       
       - name: Setup Pages
