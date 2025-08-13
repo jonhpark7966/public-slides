@@ -45,5 +45,3 @@ pnpm-debug.log*
 *.temp
 .temp/
 
-# PDF exports (can be generated)
-*.pdf

@@ -19,6 +19,10 @@ css: unocss
 
 > <span class="lerobot">LeRobot</span> Hackathon 의 의의
 
+<div style="position: fixed; bottom: 20px; left: 20px;">
+  <img src="/qr_code.svg" style="height: 250px;" />
+</div>
+
 <div style="position: fixed; bottom: 20px; right:20px; display: flex; gap: 10px; align-items: center;">
   <img src="/airk_logo.png" style="height: 100px; border-radius: 20px;" />
   <img src="/sudormrf.jpg" style="height: 100px; border-radius: 20px;" />
@@ -30,10 +34,10 @@ css: unocss
 <div grid="~ cols-2 gapt4">
 <div>
 
-- GPU, Vision → LLM → VLA
-- Youtube [@sudoremove](https://www.youtube.com/@sudoremove)
 - <span class="lerobot">LeRobot</span> Worldwide Hackathon
   Seoul Host
+- GPU, Vision → LLM → VLA
+- Youtube [@sudoremove](https://www.youtube.com/@sudoremove)
 
 </div>
 
@@ -113,10 +117,9 @@ css: unocss
 | Segmentation (U-Net) | **???** : "영역 색칠해" |
 
 </div>
-
 <br>
 
-Text → Image → **Action?**
+> text, image 에 이어서 <span class="primary-bold">`Action`</span> 도 잘 될까요?
 
 ---
 
@@ -127,7 +130,7 @@ Text → Image → **Action?**
 <img src="/scaling.webp" style="max-width: 80%; height: auto;" />
 </div>
 
-인터넷에 있는 모든 텍스트를 학습 했기 때문
+인터넷에 있는 **`모든`** 텍스트를 학습 했기 때문
 
 
 ---
@@ -181,7 +184,7 @@ Action 데이터는 <br/>
 
 ## <span class="nvidia-bold">`NVIDIA`</span>의 전략
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 0px 0;">
 <video controls autoplay muted loop style="max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <source src="/cosmos_omniverse.mp4" type="video/mp4">
 </video>
@@ -198,7 +201,6 @@ Action 데이터는 <br/>
 > 1만명이 모으면, 1만배가 빨리진다
 
 **Democratizing Robotics**  
--> 누구나 로봇 제작, 데이터 수집, 모델 학습
 
 
 ---
@@ -313,13 +315,13 @@ python lerobot/scripts/eval.py
 ### `서울 해커톤 현장`에서 배운 점
 
 <div style="text-align: center; margin: 20px 0;">
-<video controls autoplay muted loop style="max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<video controls autoplay muted style="max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <source src="/seoul_live_demo.mp4" type="video/mp4">
 </video>
 </div>
 
 - Local & Global Community Driven 의 힘
-- 진입 장벽이 매우 낮고, 하드웨어는 장난감이다
+- 진입 장벽이 매우 낮음
 
 ---
 
@@ -347,11 +349,18 @@ python lerobot/scripts/eval.py
 - [ ] 연말 무료 교육 세션 예정
 - [ ] 커스텀 오픈소스 로봇 설계 & VLA 배포 
 
+---
+
+## `3줄` 요약
+
+- Scaling 이 성공하면 VLA 도 성공한다
+- Action Data 는 인터넷에 없다
+- <span class="hf">HuggingFace</span> 는 모두가 Action Data 를 만들 수 있게 노력 중!
 
 
 ---
-layout: center
-class: text-center
+background: /HF-1.jpeg
+dim: true
 ---
 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; position: relative;">
@@ -360,7 +369,13 @@ class: text-center
 
 > 감사합니다
 
-
-[Youtube](https://youtube.com/@sudoremove) / [Community](https://sudormrf-run.github.io/community)
+<div style="position: fixed; bottom: 30px; right: 30px; display: flex; gap: 15px; align-items: center;">
+  <a href="https://youtube.com/@sudoremove" target="_blank" style="text-decoration: none; display: flex; align-items: center; gap: 6px; background: #ff0000; padding: 6px 12px; border-radius: 20px; color: white; font-size: 0.9em; font-weight: 500; box-shadow: 0 2px 10px rgba(255,0,0,0.3); transition: all 0.3s;">
+    <span>Youtube</span>
+  </a>
+  <a href="https://sudormrf-run.github.io/community" target="_blank" style="text-decoration: none; display: flex; align-items: center; gap: 6px; background: #fb9c04; padding: 6px 12px; border-radius: 20px; color: white; font-size: 0.9em; font-weight: 500; box-shadow: 0 2px 10px rgba(251,156,4,0.3); transition: all 0.3s;">
+    <span>Community</span>
+  </a>
+</div>
 
 </div>
