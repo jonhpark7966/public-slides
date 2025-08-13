@@ -5,6 +5,11 @@
 AI Robotics Korea 2025
 ./250815_airk/
 
+## 2025.08.01
+LLM Fine-Tuning 교육자료
+PDF
+./250801_LLMFineTuning/LLM_FineTuning_250804.pdf
+
 ---
 
 Blog: https://sudormrf.run
